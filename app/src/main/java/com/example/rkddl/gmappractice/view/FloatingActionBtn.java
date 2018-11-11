@@ -1,12 +1,13 @@
-package com.example.rkddl.gmappractice;
+package com.example.rkddl.gmappractice.view;
 
 import android.support.design.widget.FloatingActionButton;
 import android.view.animation.Animation;
 
 public class FloatingActionBtn {
     private Animation fabOpen, fabClose;
-    private Boolean isFabOpen = false;
+    private boolean isFabOpen = false;
     private FloatingActionButton fabMenu, fabGPS, fabPick, fabClear, fabFull;
+    private FloatingActionButton fabFix;
 
     public FloatingActionButton getFabMenu() {
         return fabMenu;
@@ -54,6 +55,14 @@ public class FloatingActionBtn {
 
     public void setFabFull(FloatingActionButton fabFull) {
         this.fabFull = fabFull;
+    }
+
+    public FloatingActionButton getFabFix() {
+        return fabFix;
+    }
+
+    public void setFabFix(FloatingActionButton fabFix) {
+        this.fabFix = fabFix;
     }
 
     public void anim() {

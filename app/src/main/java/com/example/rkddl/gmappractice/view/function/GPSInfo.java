@@ -1,4 +1,4 @@
-package com.example.rkddl.gmappractice;
+package com.example.rkddl.gmappractice.view.function;
 
 import android.app.AlertDialog;
 import android.app.Service;
